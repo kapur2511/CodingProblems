@@ -20,7 +20,6 @@ public class LongestIncreasingSubsequence{
         for(int i = 0; i < arrLis.length; i++)
             arrLis[i] = 1;
         int lis = 1;
-        int tempLis = 1;
         for(int i = 1; i<arr.length; i++){
             int element = arr[i];
             for(int j = 0; j<i; j++){
